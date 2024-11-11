@@ -1,14 +1,28 @@
 # EDtunnel
 
 <p align="center">
-  <img src="https://cloudflare-ipfs.com/ipfs/bafybeigd6i5aavwpr6wvnwuyayklq3omonggta4x2q7kpmgafj357nkcky" alt="图片描述" style="margin-bottom: -50px;">
+  <img src="https://cloudflare-ipfs.com/ipfs/bafybeigd6i5aavwpr6wvnwuyayklq3omonggta4x2q7kpmgafj357nkcky" alt="edgetunnel" style="margin-bottom: -50px;">
 </p>
 
 GitHub Repository for [https://github.com/zizifn/edgetunnel](https://github.com/zizifn/edgetunnel)
 
-Cloudflare pure IP update: [https://t.me/edtunnel](https://t.me/edtunnel)
+ask question and cloudflare ips: [https://t.me/edtunnel](https://t.me/edtunnel)
 
 [![Repository](https://img.shields.io/badge/View%20on-GitHub-blue.svg)](https://github.com/zizifn/edgetunnel)
+
+## available branches and explain
+
+| Branch Name   | Description                                                   |
+| ------------- | ------------------------------------------------------------- |
+| remote-socks5 | Branch for remote SOCKS5 proxy pool used implementation       |
+| socks5        | Branch for SOCKS5 proxyIP implementation                      |
+| vless         | Branch for outbound VLESS protocol implementation             |
+| vless2        | Branch for alternative outbound VLESS protocol implementation |
+| code1         | Branch for code1 feature development                          |
+| code2         | Branch for code2 alternative feature development              |
+| dns           | Branch for DNS alternative related development                |
+| main          | Main branch for the project                                   |
+| pages         | New version for deployment on Cloudflare Pages                |
 
 ## Deploy in pages.dev
 
@@ -68,6 +82,14 @@ Note: `UUID` is the uuid you want to set. pages.dev and worker.dev all of them m
 
    note: `uuid your set` is the uuid you set in UUID enviroment or `wrangler.toml`, `_worker.js` file.
    when you set multiple uuid, you can will use `https://edtunnel.pages.dev/sub/uuid1/?format=clash` to get the subscribe content with `uuid1` path and `clash` format.(only support first uuid in multiple uuid set)
+
+## subscribe Cloudflare bestip(pure ip) link
+
+1. visit `https://edtunnel.pages.dev/bestip/uuid your set` to get subscribe info.
+
+2. cpoy subscribe url link `https://edtunnel.pages.dev/bestip/uuid your set` to any clients(clash/v2rayN/v2rayNG) you want to use.
+
+3. done. if have any questions please join [@edtunnel](https://t.me/edtunnel)
 
 ## multiple port support (Optional)
 
